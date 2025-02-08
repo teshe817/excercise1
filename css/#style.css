@@ -1,0 +1,43 @@
+body {
+    font-family: "Arial", lsans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    width: "98%";
+    overflow-x: hidden;
+    /*prevent horizontal overflow*/
+
+}
+
+header {
+    background-color: #d9eed9;
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+nav ul li a:hover{
+    background-color: burlywood;
+    color:#333;
+    padding:10px;
+}
